@@ -282,9 +282,7 @@ class Viewer extends Component {
                   {appContext => (
                     <ConnectedHeader
                       linkText={
-                        appContext.appConfig.showStudyList
-                          ? 'Study List'
-                          : undefined
+                      
                       }
                       linkPath={
                         appContext.appConfig.showStudyList ? '/' : undefined
