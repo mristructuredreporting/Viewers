@@ -101,10 +101,7 @@ function Header(props) {
 }
 
 Header.propTypes = {
-  // Study list, /
-  linkText: PropTypes.string,
-  linkPath: PropTypes.string,
-  useLargeLogo: PropTypes.bool,
+  // 
   //
   location: PropTypes.object.isRequired,
   children: PropTypes.node,
